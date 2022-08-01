@@ -1,0 +1,50 @@
+.body{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image:url(../Design/loginback.jpg);
+}
+
+.form-container{
+    width: 380px;
+    height: 490px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,6%);
+    border: 1px solid rgba(0,0,0,10%);
+    background-color: rgb(0 0 0 / 8%);
+    position: absolute;
+    top: 21%;
+    left: 37%;
+}
+.form-container input{
+    padding: 14px;
+    margin: 21px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container button{
+    padding: 11px 27px;
+    position: relative;
+    top: 35px;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(45deg, rgb(234 197 156), #fff8f8);
+
+}
+
+.form-container .head-text {
+    position: absolute;
+    top: 38px;
+    color: white;
+    font-size: 36px;
+    font-weight: 200;
+}
+.add-account-text{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}

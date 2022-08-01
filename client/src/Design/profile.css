@@ -1,0 +1,19 @@
+
+.post-conatiner {
+    display: block;
+    padding: 15px;
+}
+.post-textarea {
+    position: relative;
+}
+.text-area{
+ 
+}
+.post-header {
+    font-family: inherit;
+    font-weight: 300;
+}
+.text-area input{
+    width: 100%;
+    height: 150px;
+}
